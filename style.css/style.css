@@ -228,4 +228,5 @@ header .link:focus {
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
+  cursor: pointer;
 }
