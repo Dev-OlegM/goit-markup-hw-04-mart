@@ -128,9 +128,10 @@ header .link:focus {
 .gallery-link {
   text-decoration: none;
   display: flex;
+  align-items: flex-end;
   width: 255px;
   height: 320px;
-  align-items: flex-end;
+  
 }
 
 .gallery-img {
