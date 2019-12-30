@@ -228,6 +228,7 @@ header .link:focus {
   line-height: 26px;
   cursor: pointer;
   padding-top: 16px;
+  margin-bottom: 81px;
 }
 
 .news-item {
