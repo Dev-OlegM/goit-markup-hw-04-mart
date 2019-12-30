@@ -8,11 +8,11 @@ html {
 
 /* Container */
 
- .container {
+.container {
   width: 1110px;
   margin-left: auto;
   margin-right: auto;
- }
+}
 
 /* Header */
 
@@ -83,20 +83,18 @@ header .link:focus {
   align-items: center;
 }
 
-
-
 /* gallery */
 
 .product-header {
   text-align: center;
   color: #515151;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 48px;
-  font-weight: 400;
   line-height: 32px;
   text-transform: uppercase;
+  margin-bottom: 131px;
+  margin-top: 0;
 }
-
 
 .gallery {
   display: flex;
@@ -104,9 +102,6 @@ header .link:focus {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-top: 131px;
-
-
 }
 
 .gallery-list {
@@ -131,11 +126,10 @@ header .link:focus {
   align-items: flex-end;
   width: 255px;
   height: 320px;
-  
 }
 
 .gallery-img {
-  width: 255px;
+  width: 200px;
 }
 
 .gallery-descr {
@@ -145,7 +139,7 @@ header .link:focus {
   margin: 0px;
   padding: 0px;
   padding-left: 15px;
-  font-family: "Roboto - Black";
+  font-family: 'Roboto - Black';
   font-weight: 400;
   font-size: 18px;
   background-color: #323232;
@@ -161,7 +155,7 @@ header .link:focus {
   align-items: center;
   margin: 0px;
   padding: 0px;
-  font-family: "Roboto - Black";
+  font-family: 'Roboto - Black';
   font-weight: 400;
   font-size: 18px;
   background-color: #8c8c8c;
@@ -187,36 +181,40 @@ header .link:focus {
 
 .news-header {
   color: #555252;
-  font-family: "Roboto - Black";
+  font-family: 'Roboto - Black';
   font-size: 48px;
-  font-weight: 400;
   line-height: 32px;
   text-transform: uppercase;
-  padding-top: 105px;
+  margin-top: 105px;
   text-align: center;
+  margin-bottom: 120px;
 }
 
 .news-list {
   display: flex;
   padding-top: 120px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header-news {
   color: #555252;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 18px;
-  font-weight: 400;
   line-height: 26px;
   padding-top: 14px;
+  margin: 0;
+  padding-bottom: 43px;
 }
 
 .descr-news {
   color: #555252;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+  margin: 0;
 }
 
 .read-more {
@@ -224,9 +222,18 @@ header .link:focus {
   height: 51px;
   background-color: #4ec6ab;
   color: #ffffff;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
   cursor: pointer;
+  padding-top: 16px;
+}
+
+.news-item {
+  margin-right: 30px;
+}
+
+.news-item:nth-last-child(-n + 1) {
+  margin-right: 0;
 }
