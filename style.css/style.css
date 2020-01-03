@@ -47,6 +47,7 @@ header .header-nav-list {
 }
 
 header .link {
+  display: block;
   padding-right: 10px;
   padding-left: 10px;
   text-decoration: none;
@@ -59,7 +60,7 @@ header .link:focus {
 }
 
 .product {
-  margin-top: 111px;
+  /* margin-top: 111px; */
   color: #515151;
   font-family: 'Roboto - Black';
   font-size: 48px;
@@ -70,6 +71,7 @@ header .link:focus {
 
 .header-nav {
   margin: 0;
+  padding: 0;
   padding-top: 43px;
   display: flex;
   list-style: none;
@@ -81,6 +83,7 @@ header .link:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 111px;
 }
 
 /* gallery */
@@ -139,7 +142,7 @@ header .link:focus {
   margin: 0px;
   padding: 0px;
   padding-left: 15px;
-  font-family: 'Roboto - Black';
+  font-family: 'Roboto';
   font-weight: 400;
   font-size: 18px;
   background-color: #323232;
@@ -181,7 +184,7 @@ header .link:focus {
 
 .news-header {
   color: #555252;
-  font-family: 'Roboto - Black';
+  font-family: 'Roboto';
   font-size: 48px;
   line-height: 32px;
   text-transform: uppercase;
@@ -196,6 +199,7 @@ header .link:focus {
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-bottom: 81px;
 }
 
 .header-news {
@@ -205,7 +209,7 @@ header .link:focus {
   line-height: 26px;
   padding-top: 14px;
   margin: 0;
-  padding-bottom: 43px;
+  margin-bottom: 43px;
 }
 
 .descr-news {
@@ -221,13 +225,16 @@ header .link:focus {
   width: 159px;
   height: 51px;
   background-color: #4ec6ab;
-  color: #ffffff;
   font-family: 'Open Sans';
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
   cursor: pointer;
-  margin-bottom: 81px;
+}
+
+.news .read-more-link {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .news-item {
@@ -236,4 +243,8 @@ header .link:focus {
 
 .news-item:nth-last-child(-n + 1) {
   margin-right: 0;
+}
+
+.news .read-more-link:hover {
+  color: #1abc9c;
 }
